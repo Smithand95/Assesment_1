@@ -31,7 +31,7 @@ body #wrapper #sidebar {
     margin-top: 5px;
     float: left;
     display: block;
-    height: 132.5%;
+    height: 113%;
     width: 37%;
     border: 5px solid black;
 }
@@ -73,6 +73,9 @@ body #wrapper #sidebar img {
 }
 
 body #wrapper #s1 {
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
     margin-top: 1%;
     display: inline-block;
     float: right;
@@ -93,6 +96,7 @@ body #wrapper #header {
 
 body #wrapper #header h2 {
     display: block;
+    font-size: 36px;
     float: left;
     padding-left: 35%;
     -webkit-text-stroke-width: 1px;
@@ -101,31 +105,33 @@ body #wrapper #header h2 {
 }
 
 body #wrapper #s1 img {
-    ;
-    float: right;
-    margin-right: 5%;
     margin-top: 5%;
-    width: 40%;
-    height: 40%;
+    margin-left: 1em;
+    width: 45%;
+    height: 45%;
     border-bottom: 1px solid black;
 
 }
-
-body #wrapper #s1 #p1,
-#p2 {
-    width: 45%;
-    padding-left: 5%;
-    background-color: #01838B;
-    display: block;
+body #wrapper #s1 #2 {
     float: left;
-    border-bottom: 5px;
-    border-left: 5px;
-    border-right: 5px;
-    width: 37%;
-    height: 15%;
+    display: block;
+    margin-top: 5%;
+    margin-right:2em;
+    width: 40%;
+    height: 40%;
+    border-bottom: 1px solid black;
+}
+body #wrapper #s1 p
+{
+    display: inline-block;
+    width:45%;
 }
 
+body #wrapper #s1 #p1 {
+    margin-left: 4em;
+    margin-top: 5%;
+}
 body #wrapper #s1 #p2 {
-    margin-left: 5%;
+    margin-right: 2em;
     margin-top: 5%;
 }
