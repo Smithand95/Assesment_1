@@ -31,7 +31,7 @@ body #wrapper #sidebar {
     margin-top: 5px;
     float: left;
     display: block;
-    height: 140%;
+    height: 113%;
     width: 37%;
     border: 5px solid black;
 }
@@ -105,8 +105,8 @@ body #wrapper #header h2 {
 }
 
 body #wrapper #s1 img {
-    
     margin-top: 5%;
+    margin-left: 1em;
     width: 45%;
     height: 45%;
     border-bottom: 1px solid black;
@@ -116,25 +116,22 @@ body #wrapper #s1 #2 {
     float: left;
     display: block;
     margin-top: 5%;
+    margin-right:2em;
     width: 40%;
     height: 40%;
     border-bottom: 1px solid black;
 }
-body #wrapper #s1 #p1,
-#p2 {
-    width: 45%;
-    padding-left: 5%;
-    background-color: #01838B;
-    display: block;
-    float: left;
-    border-bottom: 5px;
-    border-left: 5px;
-    border-right: 5px;
-    width: 37%;
-    height: 15%;
+body #wrapper #s1 p
+{
+    display: inline-block;
+    width:45%;
 }
 
+body #wrapper #s1 #p1 {
+    margin-left: 4em;
+    margin-top: 5%;
+}
 body #wrapper #s1 #p2 {
-    margin-left: 5%;
+    margin-right: 2em;
     margin-top: 5%;
 }
