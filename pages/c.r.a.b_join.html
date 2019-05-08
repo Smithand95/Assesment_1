@@ -2,18 +2,22 @@
 <html lang="en">
 <div id='wrapper'>
 
-    <body>
+    <body onload= "main()">
 
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>My C.R.A.B_Contact</title>
+            <title>My C.R.A.B_Join</title>
             <link rel="stylesheet" type="text/css" href="/attempt_1/CSS/join.css" />
+            <script type="text/javascript" src="/attempt_1/scripts/validation.js"></script>
         </head>
 
         <div id='title'>
             <h1>The Crustaceans Rights Activists Bureau</h1>
+                <div id='logo_image'>
+                    <img src='/attempt_1/images/Untitledcrab.png'alt="the C.R.A.B mascot"></img>
+                </div>
         </div>
         <div id="logo">
             <h2>C.R.A.B</h2>
@@ -25,21 +29,40 @@
             <list><a href="/attempt_1/pages/c.r.a.b_contact.html">CONTACT US</a></list>
             <img src="/attempt_1/images/pngkey.com-facebook-icon-png-transparent-2081629.png" alt=twitter,facebook,insta...etc,logos></img>
         </div>
+        <div id= 'topbar'>
+           <ul><a href="/attempt_1/pages/c.r.a.b_home.html">HOME</a></ul>
+            <ul><a href="/attempt_1/pages/c.r.a.b_members.html">MEMBERS</a></ul>
+            <ul><a href="/attempt_1/pages/c.r.a.b_join.html">JOIN</a></ul>
+            <ul><a href="/attempt_1/pages/c.r.a.b_contact.html">CONTACT US</a></ul>
+        </div>
         <div id='header'>
-            <h2>Contact Us</h2>
+            <h2>JOIN</h2>
         </div>
         <div id='s1'>
-            <img id= '1'src="/attempt_1/images/crab.jpg"></img>
-            <img id='2' src="/attempt_1/images/crab.jpg"></img>
-            <p id='2'>Founder: Andrew smith<br/>
-            Contact-email:3Smita79a@solent.act.uk<br>
-            phone number:02087654321<br/>
-            address: PO box 112 N6 696 <br/>
-            </p>
-            <p id='p2'>Founder: Andrew smith<br/>
-            Contact-email:3Smita79a@solent.act.uk<br>
-            phone number:02087654321<br/>
-            address: PO box 112 N6 696 <br/></p>
+            <form id="myform">
+        
+                    <p> <label> Name: </label> <input type="text" name="first_name" ></p>
+                    <p id="errorName"  style="display:none"> 'ERROR FIRST NAME REQUIRED' </p>
+                    <p><label>Age: </label> <input type="text" name="phone1" ></p>
+                    <p id="errorAge" style="display:none"> 'ERROR AGE REQUIRED' </p>
+                    <p> <label> location:   </label> <input type="text" name="last_name" ></p>
+                    <p id="errorlocation" style="display:none"> 'ERROR LAST NAME REQUIRED' </p>
+                    <p><label> Email: </label> <input type="text" name="email" ></p>
+                    <p id="erroremail" style="display:none"> 'ERROR EMAIL REQUIRED' </p>
+                    <p><label> Address Line 1: </label> <input type="text" name="address_1" ></p>
+                    <p id="erroraddress" style="display:none"> 'ERROR ADDRESS REQUIRED' </p>
+                    <p><label>Post Code </label> <input type="text" name="post_code" ></p>
+                    <p id="errorpostcode" style="display:none"> 'ERROR POST CODE REQUIRED' </p>
+                    <p><label>Phone Number </label> <input type="text" name="phone1"></p>
+                    <p id="errorNumber" style="display:none">'ERROR PHONE NUMBER REQUIRED'  </p>
+                    <input type="submit" id="button"></button>
+                    </form>
+        <h3>Enough to donate?</h3>
+               
+            <a href= "http://www.paypal.co.uk">
+                    <img src ="/attempt_1/images/PayPal-Donate-Button(1).png"></img>
+            </a>
+               
         </div>
 
     </body>
